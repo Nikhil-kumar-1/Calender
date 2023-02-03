@@ -1,0 +1,60 @@
+* {
+  font-family: 'Rajdhani', sans-serif
+}
+
+.calendar-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  height: 100vh;
+  width: 100%;
+}
+
+.calendar-header-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.calendar-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 293.92px;
+  height: 20px;
+  margin-bottom: .5%;
+  margin-top: 1%;
+}
+
+
+.calendar-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 293.92px;
+
+}
+
+.calendar-table-row-container {
+  display: flex;
+}
+
+.calendar-table-cell-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.calendar-table-cell-container:hover {
+  background-color: #282C34;
+  color: #f2f2f2;
+  transition: all 200ms ease-in;
+}
